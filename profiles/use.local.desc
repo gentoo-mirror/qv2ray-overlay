@@ -1,0 +1,15 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+net-proxy/qv2ray:qml-ui - Enable QML type of GUI (needs Qt 6)
+net-proxy/qv2ray:system-libuv - Use system dev-libs/libuv instead of the bundled library
+net-proxy/qv2ray:themes - Build with built-in themes
+net-proxy/qvplugin-ss:system-libsodium - Use system dev-libs/libsodium instead of the bundled library
+net-proxy/qvplugin-ss:system-libuv - Use system dev-libs/libuv instead of the bundled library
+net-proxy/qvplugin-ss:system-mbedtls - Use system net-libs/mbedtls instead of the bundled library
+net-proxy/qvplugin-ssr:system-libsodium - Use system dev-libs/libsodium instead of the bundled library
+net-proxy/qvplugin-ssr:system-libuv - Use system dev-libs/libuv instead of the bundled library
+net-proxy/qvplugin-trojan:nat - Build with nat support
+net-proxy/qvplugin-trojan:reuseport - Build with SO_REUSEPORT support
+net-proxy/qvplugin-trojan:tcpfastopen - Force build with TCP Fast Open support
