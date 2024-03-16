@@ -11,5 +11,5 @@ RDEPEND=!net-proxy/trojan-go-bin app-alternatives/v2ray-geoip app-alternatives/v
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/p4gefau1t/trojan-go/archive/refs/tags/v0.10.6.tar.gz -> trojan-go-0.10.6.tar.gz https://github.com/blackteahamburger/gentoo-go-deps/releases/download/trojan-go-0.10.6/trojan-go-0.10.6-deps.tar.xz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	go-env	96e1747610bbb2f5c5d3fb16f0f3a83a	go-module	83fd3ed1657cfc316c93d6a37018290d
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	go-env	14f8f70fe58c14d7ab44fff15a05ac47	go-module	83fd3ed1657cfc316c93d6a37018290d
 _md5_=f43559244269f5c7168f317c8d8d3299
