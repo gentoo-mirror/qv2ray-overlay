@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=install
+DESCRIPTION=A Trojan proxy written in Go
+EAPI=8
+HOMEPAGE=https://github.com/p4gefau1t/trojan-go
+INHERIT=systemd
+IUSE=abi_mips_n64 abi_mips_o32 big-endian cpu_flags_arm_v5 cpu_flags_arm_v7 cpu_flags_arm_v6 cpu_flags_arm_v8 softfloat
+KEYWORDS=-* ~amd64 ~arm ~mips ~x86
+LICENSE=GPL-3
+RDEPEND=!net-proxy/trojan-go !net-proxy/trojan-go-fork !net-proxy/trojan-go-fork-bin
+REQUIRED_USE=mips? ( || ( abi_mips_n64 abi_mips_o32 ) )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=amd64? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip ) arm? ( cpu_flags_arm_v5? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-armv5.zip ) cpu_flags_arm_v6? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-armv6.zip ) cpu_flags_arm_v7? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-armv7.zip ) cpu_flags_arm_v8? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-armv8.zip ) !cpu_flags_arm_v5? ( !cpu_flags_arm_v6? ( !cpu_flags_arm_v7? ( !cpu_flags_arm_v8? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-arm.zip ) ) ) ) ) mips? ( abi_mips_o32? ( big-endian? ( softfloat? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mips-softfloat.zip ) !softfloat? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mips-hardfloat.zip ) ) !big-endian? ( softfloat? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mipsle-softfloat.zip ) !softfloat? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mipsle-hardfloat.zip ) ) ) abi_mips_n64? ( big-endian? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mips64.zip ) !big-endian? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-mips64le.zip ) ) ) x86? ( https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-386.zip )
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=7ef7b7a2ebc1500642339cc58c1ea222

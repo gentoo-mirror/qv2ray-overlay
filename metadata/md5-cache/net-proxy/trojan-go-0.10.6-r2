@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/go virtual/pkgconfig >=dev-lang/go-1.20:= app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DEPEND=app-alternatives/v2ray-geoip app-alternatives/v2ray-geosite
+DESCRIPTION=A Trojan proxy written in Go
+EAPI=8
+HOMEPAGE=https://github.com/p4gefau1t/trojan-go
+INHERIT=systemd go-module
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!net-proxy/trojan-go-bin !net-proxy/trojan-go-fork !net-proxy/trojan-go-fork-bin app-alternatives/v2ray-geoip app-alternatives/v2ray-geosite
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/p4gefau1t/trojan-go/archive/refs/tags/v0.10.6.tar.gz -> trojan-go-0.10.6.tar.gz https://github.com/blackteahamburger/gentoo-go-deps/releases/download/trojan-go-0.10.6/trojan-go-0.10.6-deps.tar.xz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	go-env	14f8f70fe58c14d7ab44fff15a05ac47	go-module	83fd3ed1657cfc316c93d6a37018290d
+_md5_=9ce6ec452fe7804c402dc897f9d8ab43

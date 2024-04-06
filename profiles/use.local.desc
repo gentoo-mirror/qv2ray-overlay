@@ -13,3 +13,8 @@ net-proxy/qvplugin-ssr:system-libuv - Use system dev-libs/libuv instead of the b
 net-proxy/qvplugin-trojan:nat - Build with nat support
 net-proxy/qvplugin-trojan:reuseport - Build with SO_REUSEPORT support
 net-proxy/qvplugin-trojan:tcpfastopen - Force build with TCP Fast Open support
+net-proxy/trojan-go-bin:softfloat - Softfloat toolchain support
+net-proxy/trojan-go-fork-bin:amd64v2 - Use instructions added in AMD64v2
+net-proxy/trojan-go-fork-bin:amd64v3 - Use instructions added in AMD64v3
+net-proxy/trojan-go-fork-bin:amd64v4 - Use instructions added in AMD64v4
+net-proxy/trojan-go-fork-bin:softfloat - Softfloat toolchain support
