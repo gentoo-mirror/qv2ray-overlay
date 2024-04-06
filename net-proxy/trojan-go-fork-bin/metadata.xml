@@ -6,9 +6,12 @@
 		<email>blackteahamburger@outlook.com</email>
 	</maintainer>
 	<use>
+		<flag name="amd64v2">Use instructions added in AMD64v2</flag>
+		<flag name="amd64v3">Use instructions added in AMD64v3</flag>
+		<flag name="amd64v4">Use instructions added in AMD64v4</flag>
 		<flag name="softfloat">Softfloat toolchain support</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">p4gefau1t/trojan-go</remote-id>
+		<remote-id type="github">Potterli20/trojan-go-fork</remote-id>
 	</upstream>
 </pkgmetadata>
