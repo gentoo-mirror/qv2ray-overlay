@@ -10,14 +10,10 @@ HOMEPAGE="https://github.com/Potterli20/trojan-go-fork"
 DIST_URI="https://github.com/Potterli20/trojan-go-fork/releases/download/V${PV}/trojan-go-fork-linux"
 SRC_URI="
 	amd64? (
-		amd64v2? ( ${DIST_URI}-amd64-v2.zip )
-		amd64v3? ( ${DIST_URI}-amd64-v3.zip )
-		amd64v4? ( ${DIST_URI}-amd64-v4.zip )
-		!amd64v2? (
-		!amd64v3? (
-		!amd64v4? (
-			${DIST_URI}-amd64.zip
-		) ) )
+		x86-64-v1? ( ${DIST_URI}-amd64.zip )
+		x86-64-v2? ( ${DIST_URI}-amd64-v2.zip )
+		x86-64-v3? ( ${DIST_URI}-amd64-v3.zip )
+		x86-64-v4? ( ${DIST_URI}-amd64-v4.zip )
 	)
 	loong? ( ${DIST_URI}-loong64.zip )
 	mips? (
@@ -51,8 +47,9 @@ SRC_URI="
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="-* ~amd64 ~loong ~mips ~ppc64 ~riscv ~s390 ~x86"
-IUSE="abi_mips_n64 abi_mips_o32 abi_s390_64 amd64v2 amd64v3 amd64v4 big-endian cpu_flags_x86_sse2 softfloat"
+IUSE="abi_mips_n64 abi_mips_o32 abi_s390_64 +x86-64-v1 x86-64-v2 x86-64-v3 x86-64-v4 big-endian cpu_flags_x86_sse2 softfloat"
 REQUIRED_USE="
+	amd64? ( ^^ ( x86-64-v1 x86-64-v2 x86-64-v3 x86-64-v4 ) )
 	mips? ( || ( abi_mips_n64 abi_mips_o32 ) )
 	s390? ( abi_s390_64 )
 	x86? ( !cpu_flags_x86_sse2? ( softfloat ) )

@@ -6,9 +6,10 @@
 		<email>blackteahamburger@outlook.com</email>
 	</maintainer>
 	<use>
-		<flag name="amd64v2">Use instructions added in AMD64v2</flag>
-		<flag name="amd64v3">Use instructions added in AMD64v3</flag>
-		<flag name="amd64v4">Use instructions added in AMD64v4</flag>
+		<flag name="x86-64-v1">Use instructions added in x86-64-v1</flag>
+		<flag name="x86-64-v2">Use instructions added in x86-64-v2</flag>
+		<flag name="x86-64-v3">Use instructions added in x86-64-v3</flag>
+		<flag name="x86-64-v4">Use instructions added in x86-64-v4</flag>
 		<flag name="softfloat">Softfloat toolchain support</flag>
 	</use>
 	<upstream>
