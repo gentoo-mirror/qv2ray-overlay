@@ -1,11 +1,11 @@
 net-proxy/naiveproxy-bin 123.0.6312.40.1-r1: A proxy using Chromium's network stack to camouflage traffic
-net-proxy/qv2ray 2.7.0-r1 9999-r1: Qt GUI fontend of v2ray
-net-proxy/qvplugin-command 3.0.0 9999: Plugin for Qv2ray to run any commands when something happens in Qv2ray
-net-proxy/qvplugin-naiveproxy 3.0.0 9999: Plugin for Qv2ray to support NaiveProxy in Qv2ray
-net-proxy/qvplugin-ss 3.0.0 9999: Plugin for Qv2ray to support SIP003 in Qv2ray
-net-proxy/qvplugin-ssr 3.0.0 9999: Plugin for Qv2ray to support SSR in Qv2ray
-net-proxy/qvplugin-trojan 3.0.0 9999: Plugin for Qv2ray to support Trojan proxy in Qv2ray
-net-proxy/qvplugin-trojan-go 3.0.0-r1 9999-r1: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray
+net-proxy/qv2ray 2.7.0-r1 2.7.0_p20240108 9999: Qt GUI fontend of v2ray
+net-proxy/qvplugin-command 3.0.0: Plugin for Qv2ray to run any commands when something happens in Qv2ray
+net-proxy/qvplugin-naiveproxy 3.0.0: Plugin for Qv2ray to support NaiveProxy in Qv2ray
+net-proxy/qvplugin-ss 3.0.0: Plugin for Qv2ray to support SIP003 in Qv2ray
+net-proxy/qvplugin-ssr 3.0.0: Plugin for Qv2ray to support SSR in Qv2ray
+net-proxy/qvplugin-trojan 3.0.0: Plugin for Qv2ray to support Trojan proxy in Qv2ray
+net-proxy/qvplugin-trojan-go 3.0.0-r1: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray
 net-proxy/trojan-go 0.10.6-r2: A Trojan proxy written in Go
 net-proxy/trojan-go-bin 0.10.6-r1: A Trojan proxy written in Go
 net-proxy/trojan-go-fork 2024.04.07: A fork of trojan-go
