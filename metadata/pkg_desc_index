@@ -1,4 +1,4 @@
-net-proxy/naiveproxy-bin 123.0.6312.40_p1: A proxy using Chromium's network stack to camouflage traffic
+net-proxy/naiveproxy-bin 124.0.6367.54_p2: A proxy using Chromium's network stack to camouflage traffic
 net-proxy/qv2ray 2.7.0-r1 2.7.0_p20240108 9999: Qt GUI fontend of v2ray
 net-proxy/qvplugin-command 3.0.0: Plugin for Qv2ray to run any commands when something happens in Qv2ray
 net-proxy/qvplugin-naiveproxy 3.0.0: Plugin for Qv2ray to support NaiveProxy in Qv2ray
