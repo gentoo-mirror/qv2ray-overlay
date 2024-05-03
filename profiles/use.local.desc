@@ -4,6 +4,7 @@
 
 net-proxy/qv2ray:system-libuv - Use system dev-libs/libuv instead of the bundled library
 net-proxy/qv2ray:themes - Build with built-in themes
+net-proxy/qv2ray:v4-core - Use V2ray v4 or Xray core
 net-proxy/qvplugin-ss:system-libsodium - Use system dev-libs/libsodium instead of the bundled library
 net-proxy/qvplugin-ss:system-libuv - Use system dev-libs/libuv instead of the bundled library
 net-proxy/qvplugin-ss:system-mbedtls - Use system net-libs/mbedtls instead of the bundled library
@@ -18,3 +19,4 @@ net-proxy/trojan-go-fork-bin:x86-64-v1 - Use instructions added in x86-64-v1
 net-proxy/trojan-go-fork-bin:x86-64-v2 - Use instructions added in x86-64-v2
 net-proxy/trojan-go-fork-bin:x86-64-v3 - Use instructions added in x86-64-v3
 net-proxy/trojan-go-fork-bin:x86-64-v4 - Use instructions added in x86-64-v4
+net-proxy/v2ray:tool - Build the additional tool: v2ctl
