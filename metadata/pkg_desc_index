@@ -8,5 +8,5 @@ net-proxy/qvplugin-ssr 3.0.0-r1: Plugin for Qv2ray to support SSR in Qv2ray
 net-proxy/qvplugin-trojan 3.0.0-r1: Plugin for Qv2ray to support Trojan proxy in Qv2ray
 net-proxy/qvplugin-trojan-go 3.0.0-r3: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray
 net-proxy/trojan-go 0.10.6-r5: A Trojan proxy written in Go
-net-proxy/trojan-go-fork 2024.07.07-r1: A fork of trojan-go
+net-proxy/trojan-go-fork 2024.07.14: A fork of trojan-go
 net-proxy/v2ray 4.45.2-r1: A platform for building proxies to bypass network restrictions.
