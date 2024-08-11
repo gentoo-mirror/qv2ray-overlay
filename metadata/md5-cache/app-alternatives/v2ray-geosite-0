@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DESCRIPTION=symlink for v2ray-geosite
+EAPI=8
+HOMEPAGE=https://wiki.gentoo.org/wiki/Project:Base/Alternatives
+INHERIT=app-alternatives
+IUSE=+v2fly loyalsoldier
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~riscv ~x86
+LICENSE=CC0-1.0
+RDEPEND=v2fly? ( virtual/v2ray-domain-list-community ) loyalsoldier? ( dev-libs/v2ray-rules-dat[geosite] )
+REQUIRED_USE=^^ ( v2fly loyalsoldier )
+SLOT=0
+_eclasses_=app-alternatives	7e9cb9b9eda5c46d0e04f3c992226ff2
+_md5_=3eb230d5a5f6ec4a8006bedb7fcc7760

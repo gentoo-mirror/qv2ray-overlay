@@ -1,3 +1,5 @@
+app-alternatives/v2ray-geoip 0: symlink for v2ray-geoip
+app-alternatives/v2ray-geosite 0: symlink for v2ray-geosite
 dev-lang/go 1.19.13: A concurrent garbage collected and typesafe programming language
 dev-libs/v2ray-domain-list-community 20240808133326: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip 202408080046: GeoIP for V2Ray.
@@ -12,3 +14,5 @@ net-proxy/qvplugin-trojan-go 3.0.0-r3: Plugin for Qv2ray to support Trojan-Go pr
 net-proxy/trojan-go 0.10.6-r5: A Trojan proxy written in Go
 net-proxy/trojan-go-fork 2024.08.04: A fork of trojan-go
 net-proxy/v2ray 4.45.2-r1: A platform for building proxies to bypass network restrictions.
+virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
+virtual/v2ray-geoip 0: Virtual for v2ray-geoip
