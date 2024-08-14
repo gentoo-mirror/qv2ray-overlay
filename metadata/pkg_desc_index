@@ -1,7 +1,7 @@
 app-alternatives/v2ray-geoip 0: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0: symlink for v2ray-geosite
-dev-libs/v2ray-domain-list-community 20240808133326: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip 202408080046: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community 20240810010807: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip 202408101831: GeoIP for V2Ray.
 net-proxy/naiveproxy-bin 127.0.6533.64_p2: A proxy using Chromium's network stack to camouflage traffic
 net-proxy/qv2ray 2.7.0_p20240625-r1 9999: Qt GUI fontend of v2ray
 net-proxy/qvplugin-command 3.0.0-r1: Plugin for Qv2ray to run any commands when something happens in Qv2ray
