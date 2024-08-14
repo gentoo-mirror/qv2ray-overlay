@@ -10,6 +10,5 @@ net-proxy/qvplugin-ss 3.0.0-r1: Plugin for Qv2ray to support SIP003 in Qv2ray
 net-proxy/qvplugin-ssr 3.0.0-r1: Plugin for Qv2ray to support SSR in Qv2ray
 net-proxy/qvplugin-trojan 3.0.0-r1: Plugin for Qv2ray to support Trojan proxy in Qv2ray
 net-proxy/qvplugin-trojan-go 3.0.0-r4: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray
-net-proxy/trojan-go-fork 2024.08.11: A fork of trojan-go
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
