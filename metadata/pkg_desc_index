@@ -1,4 +1,4 @@
-net-proxy/qv2ray 2.7.0_p20240625-r1 9999: Qt GUI fontend of v2ray
+net-proxy/qv2ray 2.7.0_p20240625-r2 9999: Qt GUI fontend of v2ray
 net-proxy/qvplugin-command 3.0.0-r1: Plugin for Qv2ray to run any commands when something happens in Qv2ray
 net-proxy/qvplugin-naiveproxy 3.0.0-r1: Plugin for Qv2ray to support NaiveProxy in Qv2ray
 net-proxy/qvplugin-ss 3.0.0-r1: Plugin for Qv2ray to support SIP003 in Qv2ray

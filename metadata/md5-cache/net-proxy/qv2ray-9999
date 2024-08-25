@@ -1,16 +1,16 @@
 BDEPEND=!qt6? ( dev-qt/linguist-tools:5 ) qt6? ( dev-qt/qttools:6[linguist] ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
-DEPEND=!qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) system-libuv? ( dev-libs/libuv:= ) net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=!qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) dev-libs/libuv:= net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
 DESCRIPTION=Qt GUI fontend of v2ray
 EAPI=8
 HOMEPAGE=https://github.com/Qv2ray/Qv2ray
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
-INHERIT=cmake xdg git-r3 flag-o-matic
-IUSE=qt6 +system-libuv test +themes xray
+INHERIT=cmake xdg flag-o-matic git-r3
+IUSE=qt6 test +themes xray
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=!xray? ( || ( =net-proxy/v2ray-bin-5* =net-proxy/v2ray-5* ) !app-alternatives/v2ray-geoip[loyalsoldier] !app-alternatives/v2ray-geosite[loyalsoldier] ) xray? ( net-proxy/Xray ) dev-libs/openssl:0= !qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) system-libuv? ( dev-libs/libuv:= ) net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
+RDEPEND=!xray? ( || ( =net-proxy/v2ray-bin-5* =net-proxy/v2ray-5* ) !app-alternatives/v2ray-geoip[loyalsoldier] !app-alternatives/v2ray-geosite[loyalsoldier] ) xray? ( net-proxy/Xray ) dev-libs/openssl:0= !qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) dev-libs/libuv:= net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	10a50dfaf728b802fcfd37f8d0da9056	xdg	4a14c5c24f121e7da66e5aab4a168c6e	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=b43544a61b9bd60959249d0a8a8746b2
+_md5_=f3800f11ee968446e724b6bf444d3ab3

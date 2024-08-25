@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-proxy/qv2ray:system-libuv - Use system dev-libs/libuv instead of the bundled library
 net-proxy/qv2ray:themes - Build with built-in themes
 net-proxy/qv2ray:xray - Use Xray core
 net-proxy/qvplugin-ss:system-libsodium - Use system dev-libs/libsodium instead of the bundled library

@@ -1,0 +1,17 @@
+BDEPEND=!qt6? ( dev-qt/linguist-tools:5 ) qt6? ( dev-qt/qttools:6[linguist] ) app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=!qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) dev-libs/libuv:= net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
+DESCRIPTION=Qt GUI fontend of v2ray
+EAPI=8
+HOMEPAGE=https://github.com/Qv2ray/Qv2ray
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake xdg flag-o-matic
+IUSE=qt6 test +themes xray
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=!xray? ( || ( =net-proxy/v2ray-bin-5* =net-proxy/v2ray-5* ) !app-alternatives/v2ray-geoip[loyalsoldier] !app-alternatives/v2ray-geosite[loyalsoldier] ) xray? ( net-proxy/Xray ) dev-libs/openssl:0= !qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] dev-qt/qtsvg:6 ) dev-libs/libuv:= net-libs/grpc:= dev-libs/protobuf:= net-misc/curl
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/Qv2ray/Qv2ray/archive/d5c5aeb366e2fbe9c9243648af36b0d11da14920.tar.gz -> qv2ray-2.7.0_p20240625.tar.gz https://github.com/cpeditor/QCodeEditor/archive/ed1196a91dd6415c5ad6d0e85a90630e9b3b9f6c.tar.gz -> QCodeEditor-0_pre20230320.tar.gz https://github.com/Qv2ray/QJsonStruct/archive/02416895f2f1fb826f8e9207d8bbe5804b6d0441.tar.gz -> QJsonStruct-0_pre20210305.tar.gz https://github.com/Qv2ray/QNodeEditor/archive/808a7cf0359771a474db17a82cbf631746d8735d.tar.gz -> QNodeEditor-2.1.7_p20210113.tar.gz https://github.com/itay-grudev/SingleApplication/archive/refs/tags/v3.5.1.tar.gz -> SingleApplication-3.5.1.tar.gz https://github.com/Qv2ray/PureSource/archive/a4872c1fb429ed70eb183c3846bcf791bda75459.tar.gz -> PureSource-0_pre20200727.tar.gz https://github.com/danielsanfr/qt-qrcode/archive/2d57d9c6e2341689d10f9360a16a08831a4a820b.tar.gz -> qt-qrcode-0_pre20150213.tar.gz https://fukuchi.org/works/qrencode/qrencode-4.1.1.tar.bz2 https://github.com/skypjack/uvw/archive/c56c05e6daaf6d7644b46d0d0bf902f099d0a218.tar.gz -> uvw-2.12.1_p20230526.tar.gz https://github.com/Qv2ray/QvPlugin-Interface/archive/911c4adbb7b598435162da245ab248d215d3f018.tar.gz -> QvPlugin-Interface-0_pre20210214.tar.gz
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	10a50dfaf728b802fcfd37f8d0da9056	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=f3800f11ee968446e724b6bf444d3ab3
