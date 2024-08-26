@@ -1,0 +1,15 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] )
+DESCRIPTION=Plugin for Qv2ray to support NaiveProxy in Qv2ray
+EAPI=8
+HOMEPAGE=https://github.com/Qv2ray/QvPlugin-NaiveProxy
+INHERIT=cmake
+IUSE=qt6
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=net-proxy/qv2ray-2.7.0[qt6=] || ( net-proxy/naiveproxy-bin net-proxy/naiveproxy ) !qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] )
+SLOT=0
+SRC_URI=https://github.com/Qv2ray/QvPlugin-NaiveProxy/archive/refs/tags/v3.0.0.tar.gz -> qvplugin-naiveproxy-3.0.0.tar.gz https://github.com/Qv2ray/QvPlugin-Interface/archive/911c4adbb7b598435162da245ab248d215d3f018.tar.gz -> QvPlugin-Interface-0_pre20210214.tar.gz
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_md5_=8eafec781c3dde79b86394ba3928e6dd

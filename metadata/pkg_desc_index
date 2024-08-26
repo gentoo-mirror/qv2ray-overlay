@@ -1,7 +1,7 @@
 net-proxy/qv2ray 2.7.0_p20240625-r2 9999: Qt GUI fontend of v2ray
-net-proxy/qvplugin-command 3.0.0-r1: Plugin for Qv2ray to run any commands when something happens in Qv2ray
-net-proxy/qvplugin-naiveproxy 3.0.0-r1: Plugin for Qv2ray to support NaiveProxy in Qv2ray
-net-proxy/qvplugin-ss 3.0.0-r1: Plugin for Qv2ray to support SIP003 in Qv2ray
-net-proxy/qvplugin-ssr 3.0.0-r1: Plugin for Qv2ray to support SSR in Qv2ray
-net-proxy/qvplugin-trojan 3.0.0-r2: Plugin for Qv2ray to support Trojan proxy in Qv2ray
-net-proxy/qvplugin-trojan-go 3.0.0-r4: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray
+net-proxy/qvplugin-command 3.0.0-r2: Plugin for Qv2ray to run any commands when something happens in Qv2ray
+net-proxy/qvplugin-naiveproxy 3.0.0-r2: Plugin for Qv2ray to support NaiveProxy in Qv2ray
+net-proxy/qvplugin-ss 3.0.0-r2: Plugin for Qv2ray to support SIP003 in Qv2ray
+net-proxy/qvplugin-ssr 3.0.0-r2: Plugin for Qv2ray to support SSR in Qv2ray
+net-proxy/qvplugin-trojan 3.0.0-r3: Plugin for Qv2ray to support Trojan proxy in Qv2ray
+net-proxy/qvplugin-trojan-go 3.0.0-r5: Plugin for Qv2ray to support Trojan-Go proxy in Qv2ray

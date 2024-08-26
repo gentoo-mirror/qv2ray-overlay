@@ -4,11 +4,7 @@
 
 net-proxy/qv2ray:themes - Build with built-in themes
 net-proxy/qv2ray:xray - Use Xray core
-net-proxy/qvplugin-ss:system-libsodium - Use system dev-libs/libsodium instead of the bundled library
-net-proxy/qvplugin-ss:system-libuv - Use system dev-libs/libuv instead of the bundled library
-net-proxy/qvplugin-ss:system-mbedtls - Use system net-libs/mbedtls instead of the bundled library
-net-proxy/qvplugin-ssr:system-libsodium - Use system dev-libs/libsodium instead of the bundled library
-net-proxy/qvplugin-ssr:system-libuv - Use system dev-libs/libuv instead of the bundled library
+net-proxy/qvplugin-trojan:mysql - build with MySQL support
 net-proxy/qvplugin-trojan:nat - Build with NAT support
 net-proxy/qvplugin-trojan:reuseport - Build with SO_REUSEPORT support
 net-proxy/qvplugin-trojan:tcpfastopen - Force build with TCP Fast Open support
