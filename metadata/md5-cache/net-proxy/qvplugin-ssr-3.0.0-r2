@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=net-proxy/qv2ray-2.7.0[qt6=] !qt6? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) qt6? ( dev-qt/qtbase:6[gui,network,widgets] ) dev-libs/libuv:= dev-libs/libsodium:= dev-libs/openssl:0=
 SLOT=0
 SRC_URI=https://github.com/Qv2ray/QvPlugin-SSR/archive/refs/tags/v3.0.0.tar.gz -> qvplugin-ssr-3.0.0.tar.gz https://github.com/Qv2ray/QvPlugin-Interface/archive/911c4adbb7b598435162da245ab248d215d3f018.tar.gz -> QvPlugin-Interface-911c4adbb7b598435162da245ab248d215d3f018.tar.gz https://github.com/Qv2ray/shadowsocksr-uvw/archive/b303c4c463fed3e6b963f93b73d8003dd5debf5c.tar.gz -> shadowsocksr-uvw-b303c4c463fed3e6b963f93b73d8003dd5debf5c.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
 _md5_=65153fb2e4ea4c4347c8ffff8905294b
